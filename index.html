@@ -3,70 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juie Deshmukh - QA Test Analyst</title>
+  <title>Juie Deshmukh - QA Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-    header { background: #4A90E2; color: white; padding: 2rem 1rem; text-align: center; }
-    section { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-    h2 { color: #4A90E2; }
-    ul { padding-left: 1.5rem; }
-    .section { margin-bottom: 2rem; }
-    footer { text-align: center; font-size: 0.9rem; padding: 2rem 1rem; background: #eee; }
+    :root {
+      --primary: #0a66c2;
+      --text: #333;
+      --bg: #f9f9f9;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+      padding: 20px;
+    }
+    header, section, footer {
+      max-width: 900px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 40px 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { color: var(--primary); margin-bottom: 10px; }
+    h3 { margin-top: 20px; color: #555; }
+    ul { padding-left: 20px; margin: 10px 0; }
+    .section { padding: 20px; background: white; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .contact p, .contact a { margin: 5px 0; color: white; text-decoration: none; }
+    footer { text-align: center; font-size: 0.9rem; padding: 20px 0; color: #777; }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.5rem; }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Juie Deshmukh</h1>
-    <p>QA Test Analyst | 4+ Years Experience</p>
-    <p>Email: <a href="mailto:juiedeshmukh86@gmail.com">juiedeshmukh86@gmail.com</a> | Phone: +91 7219741772 | <a href="https://linkedin.com/in/juie27" target="_blank">LinkedIn</a></p>
+    <p>Senior QA Analyst | Pune, India</p>
+    <div class="contact">
+      <p>Email: <a href="mailto:juiedeshmukh86@gmail.com">juiedeshmukh86@gmail.com</a></p>
+      <p>Phone: +91 7219741772</p>
+      <p><a href="https://linkedin.com/in/juie27" target="_blank">LinkedIn Profile</a></p>
+    </div>
   </header>
-  
+
   <section class="section">
     <h2>Professional Summary</h2>
-    <p>Detail-oriented QA Test Analyst with over 4 years of experience in Finance and Healthcare domains. Proficient in manual testing, requirement analysis, defect tracking, and collaboration with Agile teams. Strong track record of delivering high-quality software solutions.</p>
+    <p>Highly motivated and detail-oriented Senior QA Analyst with 4.8 years of experience in software testing across Finance, Healthcare, and Insurance domains. Skilled in functional and API testing, with a strong grasp of agile methodologies and continuous improvement.</p>
+  </section>
+
+  <section class="section">
+    <h2>Core Competencies</h2>
+    <ul>
+      <li>Manual & Automation Testing (UI, API, Regression)</li>
+      <li>Agile Scrum | Test Planning | Defect Management</li>
+      <li>SQL & DB Validation | Oracle, MySQL</li>
+      <li>Selenium WebDriver (basic), Postman, TestNG</li>
+      <li>JIRA, Confluence, HP ALM, SoapUI, DB Visualizer</li>
+      <li>Domains: Finance, Healthcare, Insurance (Facets)</li>
+    </ul>
   </section>
 
   <section class="section">
     <h2>Work Experience</h2>
-    <h3>Cognizant, Pune Maharashtra</h3>
-    <p><strong>Programmer Analyst</strong> | Nov 2020 – Present</p>
+    <h3>Programmer Analyst (Nov 2022 – Present)</h3>
     <ul>
-      <li>Created and executed manual test cases for Finance applications.</li>
-      <li>Validated data using SQL across Oracle and MySQL databases.</li>
-      <li>Worked on Facets modules including Claims and Providers.</li>
-      <li>Reported and tracked defects using HP ALM and JIRA.</li>
-      <li>Participated in Agile ceremonies and documentation in Confluence.</li>
+      <li>Led QA for scalable Finance and Insurance domain applications.</li>
+      <li>Executed API testing using Postman and SoapUI.</li>
+      <li>Mentored junior testers and conducted onboarding sessions.</li>
+    </ul>
+    <h3>Programmer (Nov 2021 – Oct 2022)</h3>
+    <ul>
+      <li>Handled module-level test planning and regression testing.</li>
+      <li>Improved test documentation and contributed to Facets testing.</li>
+    </ul>
+    <h3>Programmer Trainee (Nov 2020 – Oct 2021)</h3>
+    <ul>
+      <li>Completed SDLC/STLC and Agile training.</li>
+      <li>Assisted with test execution and bug reporting using HP ALM & JIRA.</li>
     </ul>
   </section>
 
   <section class="section">
     <h2>Education</h2>
     <ul>
-      <li><strong>B.Sc. in Mathematics</strong>, Shri Shivaji Science College, Amravati (2020) - 76%</li>
-      <li>HSC (Science), G.S. College, Khamgaon (2017) - 77%</li>
-      <li>SSC, S.S.D.V. Dhyanpeeth, Khamgaon (2016) - 8.2 CGPA</li>
+      <li>B.Sc. Mathematics – Shri Shivaji Science College, Amravati (2020)</li>
+      <li>HSC – G.S. College, Khamgaon (2017)</li>
+      <li>SSC – S.S.D.V. Dhyanpeeth, Khamgaon (2016)</li>
     </ul>
   </section>
 
   <section class="section">
-    <h2>Skills & Tools</h2>
+    <h2>Certifications</h2>
     <ul>
-      <li>Manual Testing, Regression, Functional Testing, UAT</li>
-      <li>HP ALM, JIRA, Confluence, SoapUI</li>
-      <li>SQL, Oracle DB, MySQL, DB Visualizer</li>
-      <li>Facets, Eclipse, CA PAM</li>
-      <li>Agile (Scrum), SDLC/STLC</li>
+      <li>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</li>
+      <li>Oracle Data Platform 2025 Certified Foundations Associate</li>
+      <li>OCI 2025 Certified AI Foundations Associate</li>
+      <li>OCI for Sunbird Ed Specialty</li>
+      <li>ISTQB Foundation Level | SQL for Testers</li>
     </ul>
   </section>
 
   <section class="section">
-    <h2>Certifications & Achievements</h2>
+    <h2>Recognitions & Achievements</h2>
     <ul>
-      <li>4–5 star ratings in annual reviews (2022–2023)</li>
-      <li>Multiple recognitions from management</li>
-      <li>Visharad Certified in Indian Classical Music</li>
-      <li>2nd Prize - Youth Festival Singing Competition</li>
+      <li>4–5 star ratings in appraisals (2022–2023)</li>
+      <li>Multiple Spot Awards for QA excellence</li>
+      <li>Certified Visharad in Indian Classical Music</li>
+      <li>Finalist in company-wide music competitions</li>
     </ul>
   </section>
 
@@ -77,7 +132,10 @@
 
   <section class="section">
     <h2>Interests</h2>
-    <p>Singing (Indian Classical), Reading QA blogs</p>
+    <ul>
+      <li>Music: Performing & composing Indian classical music</li>
+      <li>QA: Exploring automation tools, mentoring peers</li>
+    </ul>
   </section>
 
   <footer>
